@@ -32,7 +32,7 @@
         </h1>
         <div class="mt-10 grid grid-cols-[repeat(1,1fr)] sm:grid-cols-[repeat(2,1fr)] md:grid-cols-[repeat(3,1fr)] lg:grid-cols-[repeat(4,1fr)] gap-x-6 gap-y-4">
             <a href="#" class="px-4 py-2 text-right grid justify-items-end rounded-md border border-gray-300 hover:bg-gray-100 transition-colors">
-                <img class="w-full" src="/images?filename=cisco-packet-tracer.png" alt="lab icon" />
+                <img class="w-full" src="/images/?filename=cisco-packet-tracer.png" alt="lab icon" />
                 <p class="text-2xl mt-4 font-medium">exam_pactice.pka</p>
                 <div class="text-lg font-medium mt-2 flex items-center gap-x-2">
                     <i class="fa-solid fa-user"></i>
@@ -45,7 +45,7 @@
                 <p class="text-lg text-green-600 font-medium text-right">Easy</p>
             </a>
             <a href="#" class="px-4 py-2  text-right grid justify-items-end rounded-md border border-gray-300 hover:bg-gray-100 transition-colors">
-                <img class="w-full" src="/images?filename=cisco-packet-tracer.png" alt="lab icon" />
+                <img class="w-full" src="/images/?filename=cisco-packet-tracer.png" alt="lab icon" />
                 <p class="text-2xl mt-4 font-medium">exam_pactice.pka</p>
                 <div class="text-lg font-medium mt-2 flex items-center gap-x-2">
                     <i class="fa-solid fa-user"></i>
@@ -58,7 +58,7 @@
                 <p class="text-lg text-green-600 font-medium text-right">Easy</p>
             </a>
             <a href="#" class="px-4 py-2  text-right grid justify-items-end rounded-md border border-gray-300 hover:bg-gray-100 transition-colors">
-                <img class="w-full" src="/images?filename=cisco-packet-tracer.png" alt="lab icon" />
+                <img class="w-full" src="/images/?filename=cisco-packet-tracer.png" alt="lab icon" />
                 <p class="text-2xl mt-4 font-medium">exam_pactice.pka</p>
                 <div class="text-lg font-medium mt-2 flex items-center gap-x-2">
                     <i class="fa-solid fa-user"></i>
@@ -71,7 +71,7 @@
                 <p class="text-lg text-green-600 font-medium text-right">Easy</p>
             </a>
             <a href="#" class="px-4 py-2  text-right grid justify-items-end rounded-md border border-gray-300 hover:bg-gray-100 transition-colors">
-                <img class="w-full" src="/images?filename=cisco-packet-tracer.png" alt="lab icon" />
+                <img class="w-full" src="/images/?filename=cisco-packet-tracer.png" alt="lab icon" />
                 <p class="text-2xl mt-4 font-medium">exam_pactice.pka</p>
                 <div class="text-lg font-medium mt-2 flex items-center gap-x-2">
                     <i class="fa-solid fa-user"></i>
