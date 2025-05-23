@@ -9,10 +9,23 @@
         }
     }
 
-    $filename = str_replace("....//", "", $_GET["filename"]);
-    $filename = str_replace("../", "", $filename);
-    if (str_ends_with($filename, ".png") || str_ends_with($filename, ".jpg") 
+    function str_contains($haystack, $needle) {
+        return $needle !== '' && strpos($haystack, $needle) !== false;
+    }
+
+    $filename = $_GET["filename"];
+
+    if (str_ends_with($filename, ".png") || str_ends_with($filename, ".jpg")
         || str_ends_with($filename, ".jpeg") || str_ends_with($filename, ".webp")) {
+        if (str_contains($filename, "\\0")) {
+            $filename = str_replace(".png", "", $filename);
+            $filename = str_replace(".jpg", "", $filename);
+            $filename = str_replace(".jpeg", "", $filename);
+            $filename = str_replace(".webp", "", $filename);
+        }
+
+        $filename = str_replace("\\0", "", $filename);
+
         $path = '/var/www/images/' . $filename;
 
         if (file_exists($path)) {
