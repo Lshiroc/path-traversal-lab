@@ -10,11 +10,11 @@
             header("Content-Type: $mime");
             readfile($path);
         } else {
-            http_response_code(404);
+            header("HTTP/1.1 404 Not Found");
             echo "File not found.";
         }
     } else {
-        http_response_code(404);
+        header("HTTP/1.1 404 Not Found");
         echo "File not found.";
     }
 ?>
