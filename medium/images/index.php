@@ -1,5 +1,5 @@
 <?php
-    $filename = $_GET["filename"];
+    $filename = str_replace("../", "", $_GET["filename"]);
     $path = '/var/www/images/' . $filename;
     
     if (file_exists($path)) {
