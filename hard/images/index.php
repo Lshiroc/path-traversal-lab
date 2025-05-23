@@ -24,7 +24,10 @@
             $filename = str_replace(".webp", "", $filename);
         }
 
-        $filename = str_replace("\\0", "", $filename);
+        $pos = strpos($filename, '\\0');
+        if ($pos !== false) {
+            $filename = substr($filename, 0, $pos);
+        }
 
         $path = '/var/www/images/' . $filename;
 
